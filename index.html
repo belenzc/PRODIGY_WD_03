@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container gameOptions-container">
+        <div class="gameOptions">
+            <h1>Tic Tac Toe</h1>
+            <button class="gameModeBtn" id="pVpModeBtn" onclick="startGame('pvp')">Player vs Player</button>
+            <button class="gameModeBtn" id="pVcModeBtn" onclick="startGame('pvc')">Player vs Computer</button>
+        </div>
+    </div>
+
+    <div class="container board-container hide">
+        <div class="endgame">
+            <h1 class="result">Tic Tac Toe</h1>
+        </div>
+
+        <table id="board">
+            <tr>
+                <td class="cell" id="0"></td>
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="6"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8"></td>
+            </tr>
+        </table>
+
+        <div class="settings">
+            <button id="changeGameModeBtn" onclick="changeSettings()">Change game mode</button>
+            <button id="restartBtn" onclick="restart()">Restart</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

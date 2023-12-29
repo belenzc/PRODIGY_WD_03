@@ -1,0 +1,84 @@
+* {
+    margin: 0 auto;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+    background: linear-gradient(217deg, #2a8c4a, #9bfab0);
+    background-attachment: fixed;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin-top: 3%;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #d0fdd7;
+    box-shadow: 2px 4px 12px 2px rgba(20, 89, 45, 0.33);
+    -webkit-box-shadow: 2px 4px 12px 2px rgba(20, 89, 45, 0.33);
+    -moz-box-shadow: 2px 4px 12px 2px rgba(20, 89, 45, 0.33);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #2a643e;
+    color: #fff;
+}
+
+.gameOptions {
+    margin-top: 25vh;
+    padding: 25px;
+}
+
+.gameOptions h1,
+.gameOptions button {
+    margin: 10px;
+}
+
+.gameOptions,
+.endgame,
+.settings {
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 2px 4px 12px 2px rgba(20, 89, 45, 0.33);
+    -webkit-box-shadow: 2px 4px 12px 2px rgba(20, 89, 45, 0.33);
+    -moz-box-shadow: 2px 4px 12px 2px rgba(20, 89, 45, 0.33);
+}
+
+.endgame,
+.settings {
+    padding: 10px;
+}
+
+.endgame h1 {
+    margin-bottom: 5px;
+}
+
+.settings button {
+    margin: 10px;
+}
+
+table {
+    margin: 2.5% auto;
+    border-spacing: 5px;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    margin: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 32px;
+    font-weight: 600;
+}
