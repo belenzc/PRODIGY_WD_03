@@ -38,7 +38,6 @@ const startGame = (gameMode) => {
 };
 
 const emptySquares = () => {
-    // return origBoard.filter(s => s === null);
     return origBoard.filter(s => typeof s == 'number');
 };
 
